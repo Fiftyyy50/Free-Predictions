@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футболни прогнози</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            color: #343a40;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #495057;
+        }
+        p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 14px 35px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #1d9bf0;
+            border-radius: 30px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #0a74da;
+            transform: translateY(-2px);
+        }
+        .social {
+            margin-top: 25px;
+        }
+        .social img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+            transition: opacity 0.3s;
+        }
+        .social img:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Футболни прогнози</h1>
+        <p>Вижте нашите прогнози за днес.</p>
+
+        <a class="button" href="predictions.html">Безплатни прогнози</a>
+        <a class="button" href="https://example.com/your-payment-link" target="_blank">Плати за прогнози</a>
+
+        <div class="social">
+            <p>Последвайте ни в социалните мрежи:</p>
+            <a href="https://facebook.com/yourpage" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/yourpage" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
